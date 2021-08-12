@@ -124,7 +124,7 @@ public class Sprite extends Rect
             //System.out.println(folder + "/" + pose[i] + delimiter + name + "_" + pose[i] + ", " + count[i]);
 			animation[i] = new Animation(folder + "/" + name + delimiter + pose[i] + "_", count[i], filetype, leadingZeroes);
 		}
-
+  ///Set animation delay
 		animation[LEFT_IDLE].setDelay(10);
 		animation[RIGHT_IDLE].setDelay(10);
 		animation[UP_JUMP].setDelay(3);
